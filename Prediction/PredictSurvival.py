@@ -225,7 +225,7 @@ def predict():
     df = pd.DataFrame([survived_sex, dead_sex])
     df.index = ['Survived', 'Dead']
     df.plot(kind='bar', stacked=True, figsize=(15, 8))
-    #plt.show()
+    # plt.show()
 
     #visualize on Age
     figure = plt.figure(figsize=(15, 8))
@@ -234,7 +234,7 @@ def predict():
     plt.xlabel('Age')
     plt.ylabel('Number of passengers')
     plt.legend()
-    #plt.show()
+    plt.show()
 
     #visualize on Fare
     figure = plt.figure(figsize=(15, 8))
